@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+aside.close {
+    width: 0 !important;
+}
+
+aside.close > .menu-container, aside.close > .logo-container {
+    display: none !important;
+    transition: all 0.4s ease;
+}
+
+.toggle-icon {
+    transform: rotate(180deg);
+    transition: all 0.4s ease;
+}
+
+aside {
+    transition: all 0.4s ease;
+}
+
+.side-nav-text {
+    white-space: nowrap !important;
+}
